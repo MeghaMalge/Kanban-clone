@@ -25,6 +25,7 @@ export default function Users({ users, width, height, offset, overlap }) {
             width={width}
             height={height}
             style={styles}
+            key={user}
           />
         );
       })}

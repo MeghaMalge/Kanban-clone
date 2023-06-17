@@ -1,10 +1,12 @@
+import { Droppable } from "react-beautiful-dnd";
+
 import { Bullet } from "../../assets/icons/Bullet";
 import { AddSquare } from "../../assets/icons/AddSquare";
 import TodoItem from "./TodoItem";
 
 import styles from "./TodosList.module.css";
 
-export default function TodosList({ todosList, type }) {
+export default function TodosList({ todosList, type, id }) {
   return (
     <div className={styles.todosContainer}>
       <header
@@ -39,10 +41,28 @@ export default function TodosList({ todosList, type }) {
           </span>
         )}
       </header>
-
-      {todosList.map((todo) => (
-        <TodoItem key={todo.id} todo={todo} />
-      ))}
+      <Droppable droppableId={id}>
+        {(provided, snapshot) => {
+          return (
+            <div
+              className={styles.droppableArea}
+              ref={provided.innerRef}
+              {...provided.droppableProps}
+              isDraggingOver={snapshot.isDraggingOver}
+            >
+              {todosList.map((todo, index) => (
+                <TodoItem
+                  key={todo.id}
+                  id={todo.id.toString()}
+                  todo={todo}
+                  index={index}
+                />
+              ))}
+              {provided.placeholder}
+            </div>
+          );
+        }}
+      </Droppable>
     </div>
   );
 }

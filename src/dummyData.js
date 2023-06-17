@@ -16,7 +16,7 @@ export const dummyProjects = [
         status: "not started",
       },
       {
-        id: 2,
+        id: "2",
         title: "Research",
         image: [],
         description:
@@ -28,7 +28,7 @@ export const dummyProjects = [
         status: "not started",
       },
       {
-        id: 3,
+        id: "3",
         title: "Wirefreame",
         image: [],
         description:
@@ -40,7 +40,7 @@ export const dummyProjects = [
         status: "not started",
       },
       {
-        id: 4,
+        id: "4",
         title: "Onboarding Illustrations",
         image: ["OnboardingIllustrations"],
         description: "",
@@ -51,7 +51,7 @@ export const dummyProjects = [
         status: "started",
       },
       {
-        id: 5,
+        id: "5",
         title: "Moodboard",
         image: ["Moodboard1", "Moodboard2"],
         description: "",
@@ -62,22 +62,22 @@ export const dummyProjects = [
         status: "started",
       },
       {
-        id: 6,
+        id: "6",
         title: "Mobile App Design",
         image: ["MobileAppDesign"],
         description: "",
-        priority: "completed",
+        priority: "low",
         comments: 12,
         files: 15,
         users: ["User5", "User2"],
         status: "completed",
       },
       {
-        id: 7,
+        id: "7",
         title: "Design System",
         image: [],
         description: "It just needs to adapt the UI from what you did before ",
-        priority: "completed",
+        priority: "high",
         comments: 12,
         files: 15,
         users: ["User1", "User3", "User2"],

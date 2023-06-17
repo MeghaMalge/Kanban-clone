@@ -2,6 +2,10 @@
   @apply relative bg-dusky-white rounded-2xl p-5 flex flex-col gap-5;
 }
 
+.droppableArea {
+  @apply flex flex-col gap-5;
+}
+
 .todoHeader {
   @apply flex items-center gap-2 text-base font-medium text-black mb-2;
   padding-bottom: 22px;
@@ -15,15 +19,15 @@
 }
 
 .notStarted {
-  border-bottom: 3px solid #5030E5;
+  border-bottom: 3px solid #5030e5;
 }
 
 .started {
-  border-bottom: 3px solid #FFA500;
+  border-bottom: 3px solid #ffa500;
 }
 
 .completed {
-  border-bottom: 3px solid #8BC48A;
+  border-bottom: 3px solid #8bc48a;
 }
 
 .count {

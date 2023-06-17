@@ -18,11 +18,11 @@ export default function TodosContainer() {
   );
 
   const findTodoById = (id, array) => {
-    return array.find((todo) => todo.id == id);
+    return array.find((todo) => todo.id === id);
   };
 
   const removeTodoById = (id, array) => {
-    return array.filter((todo) => todo.id != id);
+    return array.filter((todo) => todo.id !== id);
   };
 
   const handleDrag = (result) => {
@@ -30,9 +30,9 @@ export default function TodosContainer() {
 
     if (source.droppableId === destination.droppableId) return;
 
-    if (source.droppableId == 1) {
+    if (source.droppableId === "1") {
       setNotStartedTodos(removeTodoById(draggableId, notStartedTodos));
-    } else if (source.droppableId == 2) {
+    } else if (source.droppableId === "2") {
       setStartedTodos(removeTodoById(draggableId, startedTodos));
     } else {
       setCompletedTodos(removeTodoById(draggableId, completedTodos));
@@ -44,12 +44,12 @@ export default function TodosContainer() {
       ...completedTodos,
     ]);
 
-    if (destination.droppableId == 1) {
+    if (destination.droppableId === "1") {
       setNotStartedTodos([
         { ...todo, status: "not started" },
         ...notStartedTodos,
       ]);
-    } else if (destination.droppableId == 2){
+    } else if (destination.droppableId === "2"){
       setStartedTodos([
         { ...todo, status: "started" },
         ...startedTodos,

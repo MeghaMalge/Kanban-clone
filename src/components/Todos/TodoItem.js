@@ -1,5 +1,9 @@
 import { Draggable } from "react-beautiful-dnd";
 
+import MobileAppDesign from "../../assets/images/MobileAppDesign.png";
+import Moodboard1 from "../../assets/images/Moodboard1.png";
+import Moodboard2 from "../../assets/images/Moodboard2.png";
+import OnboardingIllustrations from "../../assets/images/OnboardingIllustrations.png";
 import { Menu1 } from "../../assets/icons/Menu1";
 import { Message16 } from "../../assets/icons/Message16";
 import { Folder } from "../../assets/icons/Folder";
@@ -8,6 +12,12 @@ import Users from "../UI/Users";
 import styles from "./TodoItem.module.css";
 
 export default function TodoItem({ todo, index }) {
+  const picturesObj = {
+    MobileAppDesign: MobileAppDesign,
+    Moodboard1: Moodboard1,
+    Moodboard2: Moodboard2,
+    OnboardingIllustrations: OnboardingIllustrations,
+  };
   return (
     <Draggable draggableId={todo.id.toString()} key={todo.id} index={index}>
       {(provided, snapshot) => {
@@ -41,13 +51,7 @@ export default function TodoItem({ todo, index }) {
               {todo.image.length !== 0 && (
                 <div className={styles.images}>
                   {todo.image.map((picture) => (
-                    <img
-                      src={
-                        process.env.REACT_APP_BASE_URL +
-                        `/public/images/${picture}.png`
-                      }
-                      alt={picture}
-                    />
+                    <img src={picturesObj[picture]} alt={picture} />
                   ))}
                 </div>
               )}

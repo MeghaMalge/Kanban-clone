@@ -1,8 +1,22 @@
+import User1 from "../../assets/images/User1.png";
+import User2 from "../../assets/images/User2.png";
+import User3 from "../../assets/images/User3.png";
+import User4 from "../../assets/images/User4.png";
+import User5 from "../../assets/images/User5.png";
+
 import styles from "./Users.module.css";
 
 export default function Users({ users, width, height, offset, overlap }) {
   const renderUsers = users.length > 4 ? users.slice(0, 4) : users;
   const count = users.length > 4 ? users.length - 4 : 0;
+
+  const usersObj = {
+    User1: User1,
+    User2: User2,
+    User3: User3,
+    User4: User4,
+    User5: User5,
+  };
 
   return (
     <div className={styles.usersList}>
@@ -19,7 +33,7 @@ export default function Users({ users, width, height, offset, overlap }) {
               };
         return (
           <img
-            src={`./kanban-clone/public/images/${user}.png`}
+            src={usersObj[user]}
             alt={user}
             className={styles.profile}
             width={width}

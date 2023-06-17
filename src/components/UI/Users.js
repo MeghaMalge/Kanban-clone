@@ -19,7 +19,7 @@ export default function Users({ users, width, height, offset, overlap }) {
               };
         return (
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/public/images/${user}.png`}
+            src={`./kanban-clone/public/images/${user}.png`}
             alt={user}
             className={styles.profile}
             width={width}

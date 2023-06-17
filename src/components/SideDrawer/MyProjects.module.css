@@ -1,0 +1,37 @@
+.header {
+  @apply flex justify-between items-center;
+  margin: 30px 22px 20px 22px;
+}
+
+.headerText {
+  @apply text-xs font-bold text-grey uppercase;
+}
+
+.projectsList {
+  @apply flex flex-col;
+  gap: 10px;
+}
+
+.projectItem {
+  @apply flex items-center justify-between mx-3 pl-3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projectInfo {
+  @apply flex items-center;
+  gap: 16px;
+}
+
+.projectName {
+  @apply text-sm font-medium text-grey;
+}
+
+.active {
+  @apply bg-blue bg-opacity-10;
+  border-radius: 6px;
+}
+
+.activeIcon {
+  @apply mr-3;
+}

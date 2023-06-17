@@ -1,0 +1,11 @@
+.container {
+  @apply flex w-screen;
+}
+
+.right-container {
+  @apply flex flex-col w-full border-l border-l-grey-light-1;
+}
+
+.left-container {
+  min-width: 250px;
+}

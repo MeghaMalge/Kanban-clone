@@ -1,0 +1,21 @@
+.userProfile {
+  @apply flex items-center gap-3;
+}
+
+.userInfo {
+  @apply flex flex-col items-end;
+  gap: 3px;
+  margin: 0 10px;
+}
+
+.userName {
+  @apply text-base font-normal text-black;
+}
+
+.userAddress {
+  @apply text-sm font-normal text-grey;
+}
+
+.userImage {
+  @apply rounded-full;
+}

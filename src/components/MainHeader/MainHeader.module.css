@@ -1,0 +1,7 @@
+.header {
+    @apply px-12 flex justify-between items-center h-20 w-full border-b border-b-grey-light-1;
+}
+
+.rightHeader {
+    @apply flex items-center gap-10;
+}

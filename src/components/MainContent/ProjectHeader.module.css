@@ -1,0 +1,21 @@
+.projectHeader {
+  @apply w-full flex justify-between items-center mt-10;
+}
+
+.left {
+  @apply flex items-center justify-center;
+  gap: 17px;
+}
+
+.projectTitle {
+  @apply font-semibold text-black -mt-3;
+  font-size: 46px;
+}
+
+.right {
+  @apply flex items-center;
+}
+
+.inviteLink {
+  @apply text-base font-medium text-blue ml-2 mr-3 -mt-1;
+}

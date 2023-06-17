@@ -1,0 +1,12 @@
+.navMenu {
+  @apply flex flex-col border-b border-b-grey-light-1 block;
+  gap: 25px;
+  margin: 0 13px;
+  padding: 30px 0;
+}
+
+.menuItem {
+  @apply flex text-base font-medium text-grey;
+  gap: 14px;
+  margin-left: 9px;
+}

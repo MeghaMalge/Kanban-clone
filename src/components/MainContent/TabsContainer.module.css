@@ -1,0 +1,15 @@
+.tabsContainer {
+  @apply w-full flex justify-between items-center mt-10;
+}
+
+.left {
+  @apply flex items-center gap-3;
+}
+
+.right {
+  @apply flex items-center gap-5;
+}
+
+.separator {
+  @apply w-0 h-7 border border-grey;
+}

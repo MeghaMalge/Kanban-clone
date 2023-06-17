@@ -1,0 +1,14 @@
+.usersList {
+  @apply flex;
+}
+
+.profile {
+  @apply border border-white rounded-full;
+}
+
+.count {
+  @apply border border-white rounded-full text-red flex justify-center items-center font-medium;
+  background-color: #F4D7DA;
+  font-size: 15px;
+  z-index: 200;
+}

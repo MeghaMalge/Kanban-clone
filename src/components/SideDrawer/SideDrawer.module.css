@@ -1,0 +1,14 @@
+.sideDrawer {
+  @apply min-h-screen;
+  width: 250px;
+}
+
+.header {
+  @apply h-20 border-b border-b-grey-light-1 flex justify-between items-center;
+  padding: 0 22px;
+}
+
+.headerText {
+  @apply flex text-xl font-semibold text-black;
+  gap: 9px;
+}

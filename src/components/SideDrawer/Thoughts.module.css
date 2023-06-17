@@ -1,0 +1,37 @@
+.thoughts {
+  @apply relative;
+  margin: 45px 22px 0px 22px;
+  padding-bottom: 30px;
+}
+
+.lamp {
+  @apply mx-auto flex justify-center items-center bg-grey-light-2 rounded-full;
+  width: 66px;
+  height: 66px;
+}
+
+.innerEllipse {
+  @apply absolute rounded-full;
+  background-color: rgba(252, 214, 74, 0.7);
+  width: 33px;
+  height: 33px;
+  filter: blur(17px);
+}
+
+.thoughtsText {
+  @apply bg-grey-light-2 flex flex-col items-center gap-3 rounded-2xl;
+  margin-top: -33px;
+  padding-top: 37px;
+}
+
+.title {
+  @apply text-sm font-medium text-pure-black;
+}
+
+.description {
+  @apply text-xs font-normal text-grey mx-5 text-center;
+}
+
+.textButton {
+  @apply py-3 px-7 bg-white text-sm font-medium mb-5 rounded;
+}

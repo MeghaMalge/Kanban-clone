@@ -19,7 +19,7 @@ export default function Users({ users, width, height, offset, overlap }) {
               };
         return (
           <img
-            src={`/images/${user}.png`}
+            src={`${process.env.BASE_URL}/public/images/${user}.png`}
             alt={user}
             className={styles.profile}
             width={width}

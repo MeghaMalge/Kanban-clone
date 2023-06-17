@@ -41,7 +41,7 @@ export default function TodoItem({ todo, index }) {
               {todo.image.length !== 0 && (
                 <div className={styles.images}>
                   {todo.image.map((picture) => (
-                    <img src={`/images/${picture}.png`} alt={picture} />
+                    <img src={`${process.env.BASE_URL}/public/images/${picture}.png`} alt={picture} />
                   ))}
                 </div>
               )}

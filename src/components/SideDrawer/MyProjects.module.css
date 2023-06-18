@@ -1,6 +1,5 @@
 .header {
-  @apply hidden sm:flex justify-between items-center;
-  margin: 30px 22px 20px 22px;
+  @apply hidden sm:flex justify-between items-center mt-[30px] mb-5 mx-[22px];
 }
 
 .headerText {
@@ -8,19 +7,15 @@
 }
 
 .projectsList {
-  @apply hidden sm:flex flex-col;
-  gap: 10px;
+  @apply hidden sm:flex flex-col gap-[10px];
 }
 
 .projectItem {
-  @apply flex items-center justify-between mx-3 pl-3;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  @apply flex items-center justify-between mx-3 pl-3 py-[10px];
 }
 
 .projectInfo {
-  @apply flex items-center;
-  gap: 16px;
+  @apply flex gap-4 items-center;
 }
 
 .projectName {
@@ -28,8 +23,7 @@
 }
 
 .active {
-  @apply bg-blue bg-opacity-10;
-  border-radius: 6px;
+  @apply bg-blue bg-opacity-10 rounded-[6px];
 }
 
 .activeIcon {

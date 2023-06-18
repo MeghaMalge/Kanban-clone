@@ -3,13 +3,12 @@
 }
 
 .header {
-  @apply h-20 border-b border-b-grey-light-1 flex justify-between items-center;
-  padding: 0 22px;
+  @apply h-20 border-b border-b-grey-light-1 flex justify-between items-center px-[13px] sm:px-[22px];
+  
 }
 
 .headerText {
-  @apply flex text-xl font-semibold text-black;
-  gap: 9px;
+  @apply flex text-xl font-semibold text-black gap-[9px];
 }
 
 .headerText h2 {

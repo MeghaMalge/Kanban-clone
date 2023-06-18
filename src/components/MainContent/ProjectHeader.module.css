@@ -3,13 +3,11 @@
 }
 
 .left {
-  @apply flex items-center self-start;
-  gap: 17px;
+  @apply flex gap-[17px] items-center self-start;
 }
 
 .projectTitle {
-  @apply font-semibold text-black -mt-3 text-3xl lg:text-5xl;
-  /* font-size: 46px; */
+  @apply font-semibold text-black -mt-3 text-3xl lg:text-[46px];
 }
 
 .right {

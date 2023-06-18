@@ -2,16 +2,16 @@ import MainContent from "./components/MainContent";
 import MainHeader from "./components/MainHeader";
 import SideDrawer from "./components/SideDrawer";
 
-import "./layout.css";
+import styles from "./layout.module.css";
 
 function App() {
   console.log(process.env.REACT_APP_BASE_URL);
   return (
-    <div className="container">
-      <section className="left-container">
+    <div className={styles.container}>
+      <section className={styles.leftContainer}>
         <SideDrawer />
       </section>
-      <section className="right-container">
+      <section className={styles.rightContainer}>
         <MainHeader />
         <MainContent />
       </section>

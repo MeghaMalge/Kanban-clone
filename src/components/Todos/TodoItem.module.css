@@ -7,9 +7,7 @@
 }
 
 .priority {
-  @apply text-xs font-medium capitalize;
-  padding: 4px 6px;
-  border-radius: 4px;
+  @apply text-xs font-medium capitalize py-1 px-[6px] rounded-[4px];
 }
 
 .low {
@@ -25,8 +23,7 @@
 }
 
 .todoInfo {
-  @apply flex flex-col mb-7;
-  gap: 6px;
+  @apply flex flex-col gap-[6px] mb-7;
 }
 
 .todoName {
@@ -46,11 +43,9 @@
 }
 
 .tagsContainer {
-  @apply flex flex-col sm:flex-row sm:items-center;
-  gap: 14px;
+  @apply flex flex-col gap-[14px] sm:flex-row sm:items-center;
 }
 
 .tag {
-  @apply flex items-center text-xs font-medium text-grey;
-  gap: 5px;
+  @apply flex gap-[5px] items-center text-xs font-medium text-grey;
 }

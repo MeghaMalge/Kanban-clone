@@ -8,4 +8,9 @@
 
 body {
   @apply bg-white;
+
+}
+
+li {
+  @apply m-0;
 }

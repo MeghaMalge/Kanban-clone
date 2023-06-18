@@ -3,9 +3,7 @@
 }
 
 .userInfo {
-  @apply hidden lg:flex flex-col items-end;
-  gap: 3px;
-  margin: 0 10px;
+  @apply hidden my-0 mx-[10px] lg:flex flex-col gap-[3px] items-end;
 }
 
 .userName {

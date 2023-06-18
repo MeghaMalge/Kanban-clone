@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Kanban-clone/static/css/main.3b002e02.css",
+    "main.css": "/Kanban-clone/static/css/main.08363474.css",
     "main.js": "/Kanban-clone/static/js/main.9a5cd871.js",
     "static/media/current-user.jpg": "/Kanban-clone/static/media/current-user.adf747381a637e9588bc.jpg",
     "static/media/MobileAppDesign.png": "/Kanban-clone/static/media/MobileAppDesign.1eb3d86f7b15dba33f64.png",
     "static/media/OnboardingIllustrations.png": "/Kanban-clone/static/media/OnboardingIllustrations.a1bb3fe8a9c383f07086.png",
     "static/media/Moodboard2.png": "/Kanban-clone/static/media/Moodboard2.71c2ee579213e5ee77c3.png",
     "index.html": "/Kanban-clone/index.html",
-    "main.3b002e02.css.map": "/Kanban-clone/static/css/main.3b002e02.css.map",
+    "main.08363474.css.map": "/Kanban-clone/static/css/main.08363474.css.map",
     "main.9a5cd871.js.map": "/Kanban-clone/static/js/main.9a5cd871.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b002e02.css",
+    "static/css/main.08363474.css",
     "static/js/main.9a5cd871.js"
   ]
 }

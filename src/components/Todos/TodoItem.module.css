@@ -46,7 +46,7 @@
 }
 
 .tagsContainer {
-  @apply flex items-center;
+  @apply flex flex-col sm:flex-row sm:items-center;
   gap: 14px;
 }
 

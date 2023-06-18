@@ -1,15 +1,19 @@
 .tabsContainer {
-  @apply w-full flex justify-between items-center mt-10;
+  @apply w-full mt-10 flex justify-between items-center;
 }
 
 .left {
-  @apply flex items-center gap-3;
+  @apply flex items-center justify-around w-full md:justify-normal md:gap-3;
 }
 
 .right {
-  @apply flex items-center gap-5;
+  @apply hidden lg:flex items-center gap-5;
 }
 
 .separator {
   @apply w-0 h-7 border border-grey;
+}
+
+.shareTab {
+  @apply hidden sm:block lg:hidden;
 }

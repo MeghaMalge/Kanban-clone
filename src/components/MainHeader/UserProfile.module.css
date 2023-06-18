@@ -3,7 +3,7 @@
 }
 
 .userInfo {
-  @apply flex flex-col items-end;
+  @apply hidden lg:flex flex-col items-end;
   gap: 3px;
   margin: 0 10px;
 }

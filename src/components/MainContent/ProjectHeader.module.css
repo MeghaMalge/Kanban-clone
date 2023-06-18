@@ -1,19 +1,19 @@
 .projectHeader {
-  @apply w-full flex justify-between items-center mt-10;
+  @apply w-full flex flex-col gap-4 lg:flex-row lg:justify-between lg:items-center lg:gap-0 mt-10;
 }
 
 .left {
-  @apply flex items-center justify-center;
+  @apply flex items-center self-start;
   gap: 17px;
 }
 
 .projectTitle {
-  @apply font-semibold text-black -mt-3;
-  font-size: 46px;
+  @apply font-semibold text-black -mt-3 text-3xl lg:text-5xl;
+  /* font-size: 46px; */
 }
 
 .right {
-  @apply flex items-center;
+  @apply flex items-center justify-around self-end;
 }
 
 .inviteLink {

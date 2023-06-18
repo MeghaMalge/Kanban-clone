@@ -1,6 +1,5 @@
 .sideDrawer {
-  @apply min-h-screen;
-  width: 250px;
+  @apply sticky top-0 left-0 min-h-screen;
 }
 
 .header {
@@ -11,4 +10,12 @@
 .headerText {
   @apply flex text-xl font-semibold text-black;
   gap: 9px;
+}
+
+.headerText h2 {
+  @apply hidden sm:block;
+}
+
+.arraow {
+  @apply hidden sm:block;
 }

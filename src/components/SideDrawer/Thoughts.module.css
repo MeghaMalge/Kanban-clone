@@ -1,5 +1,5 @@
 .thoughts {
-  @apply relative;
+  @apply hidden sm:block relative;
   margin: 45px 22px 0px 22px;
   padding-bottom: 30px;
 }

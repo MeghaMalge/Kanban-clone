@@ -14,7 +14,7 @@ export default function SideDrawer({ children, header }) {
           <img src={ColorFilter} alt="color-filter" />
           <h2>Project M.</h2>
         </span>
-        <ArrowLeft />
+        <span className={styles.arraow}><ArrowLeft /></span>
       </header>
       <main>
         <NavMenu />

@@ -22,6 +22,12 @@ export default function TabsContainer() {
           <span>Today</span>
           <ArrowDown />
         </Tab>
+        <span className={styles.shareTab}>
+          <Tab>
+            <Profile />
+            <span>Share</span>
+          </Tab>
+        </span>
       </div>
       <div className={styles.right}>
         <Tab>

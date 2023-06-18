@@ -24,11 +24,11 @@ export default function Users({ users, width, height, offset, overlap }) {
         const styles =
           overlap === "right"
             ? {
-                zIndex: 100 - idx,
+                zIndex: 20 - idx,
                 marginLeft: offset === "4" ? "-4px" : "-8px",
               }
             : {
-                zIndex: 100 + idx,
+                zIndex: 20 + idx,
                 marginRight: offset === "4" ? "-4px" : "-8px",
               };
         return (

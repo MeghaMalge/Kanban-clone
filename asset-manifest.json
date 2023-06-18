@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Kanban-clone/static/css/main.ad937940.css",
-    "main.js": "/Kanban-clone/static/js/main.bb10d961.js",
+    "main.css": "/Kanban-clone/static/css/main.39c7a70c.css",
+    "main.js": "/Kanban-clone/static/js/main.6962a828.js",
     "static/media/current-user.jpg": "/Kanban-clone/static/media/current-user.adf747381a637e9588bc.jpg",
     "static/media/MobileAppDesign.png": "/Kanban-clone/static/media/MobileAppDesign.1eb3d86f7b15dba33f64.png",
     "static/media/OnboardingIllustrations.png": "/Kanban-clone/static/media/OnboardingIllustrations.a1bb3fe8a9c383f07086.png",
     "static/media/Moodboard2.png": "/Kanban-clone/static/media/Moodboard2.71c2ee579213e5ee77c3.png",
     "index.html": "/Kanban-clone/index.html",
-    "main.ad937940.css.map": "/Kanban-clone/static/css/main.ad937940.css.map",
-    "main.bb10d961.js.map": "/Kanban-clone/static/js/main.bb10d961.js.map"
+    "main.39c7a70c.css.map": "/Kanban-clone/static/css/main.39c7a70c.css.map",
+    "main.6962a828.js.map": "/Kanban-clone/static/js/main.6962a828.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad937940.css",
-    "static/js/main.bb10d961.js"
+    "static/css/main.39c7a70c.css",
+    "static/js/main.6962a828.js"
   ]
 }

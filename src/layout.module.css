@@ -7,5 +7,5 @@
 }
 
 .leftContainer {
-  @apply w-[50px] sm:min-w-[250px] md:min-w-[280px];
+  @apply w-[50px] sm:min-w-[250px] xl:min-w-[280px];
 }

@@ -39,7 +39,7 @@
 }
 
 .footer {
-  @apply flex justify-between items-center;
+  @apply flex justify-between items-center lg:flex-col lg:items-start lg:gap-2 xl:flex-row xl:items-center;
 }
 
 .tagsContainer {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { dummyProjects } from "../../dummyData";
 import { Bullet } from "../../assets/icons/Bullet";

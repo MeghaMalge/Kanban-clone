@@ -1,5 +1,5 @@
-import ColorFilter from "../../assets/images/colorfilter.png";
 import { ArrowLeft } from "../../assets/icons/ArrowLeft";
+import ColorFilter from "../../assets/images/colorfilter.png";
 import NavMenu from "./NavMenu";
 import MyProjects from "./MyProjects";
 import Thoughts from "./Thoughts";

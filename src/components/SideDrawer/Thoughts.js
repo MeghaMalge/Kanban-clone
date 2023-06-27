@@ -1,5 +1,3 @@
-import React from "react";
-
 import { LampOn } from "../../assets/icons/LampOn";
 
 import styles from "./Thoughts.module.css";

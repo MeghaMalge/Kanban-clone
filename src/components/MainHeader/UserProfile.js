@@ -1,5 +1,3 @@
-import React from "react";
-
 import { ArrowDown } from "../../assets/icons/ArrowDown";
 import CurrentUser from "../../assets/images/current-user.jpg";
 

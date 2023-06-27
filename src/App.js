@@ -5,7 +5,6 @@ import SideDrawer from "./components/SideDrawer";
 import styles from "./layout.module.css";
 
 function App() {
-  console.log(process.env.REACT_APP_BASE_URL);
   return (
     <div className={styles.container}>
       <section className={styles.leftContainer}>
